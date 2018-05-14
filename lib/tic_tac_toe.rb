@@ -1,4 +1,4 @@
 class TicTacToe
   def initialize(board = nil)
-    @board = board
+    @board = board || [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 end
