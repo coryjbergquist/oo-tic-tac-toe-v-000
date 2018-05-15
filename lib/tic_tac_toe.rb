@@ -50,6 +50,9 @@ def valid_move?(board, index)
 end
 
 def turn_count
-  board.count { |x| x !=" "}
+  @board.count { |x| x !=" "}
+end
+
+
 
 end
