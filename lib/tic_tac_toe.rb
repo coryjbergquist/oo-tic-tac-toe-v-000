@@ -89,9 +89,9 @@ def full?
   
   def draw?
     if
-      won?.@board
+      won?(@board)
     else
-      full?.@board
+      full?(@board)
   end
 end
 
