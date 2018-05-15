@@ -82,7 +82,7 @@ WIN_COMBINATIONS.each do |win_combination|
   nil
 end
 
-def full?(board)
+def full?
     !board.any? {|x|
       x == " "}
   end
