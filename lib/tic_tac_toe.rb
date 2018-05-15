@@ -119,7 +119,7 @@ else
 end
   
   while game < 9
-turn(board)
+turn
 
 game += 1
 end
