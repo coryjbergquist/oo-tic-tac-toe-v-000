@@ -95,6 +95,7 @@ def full?
   end
 end
 
-
+def over?
+  won?.@board || draw?.@board || full?.@board
 
 end
