@@ -87,6 +87,14 @@ def full?
       x == " "}
   end
   
-  
+  def draw?
+    if
+      won?.@board
+    else
+      full?.@board
+  end
+end
+
+
 
 end
