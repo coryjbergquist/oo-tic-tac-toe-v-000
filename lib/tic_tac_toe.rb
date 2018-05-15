@@ -53,8 +53,8 @@ def turn
   puts "Please enter 1-9:"
  user_input = gets.strip
  position = input_to_index(user_input)
- value = current_player
- if valid_move?(index) == true
+ position = current_player
+ if valid_move?(position) == true
    move(position, value)
  display_board
  else 
