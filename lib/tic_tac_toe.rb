@@ -96,7 +96,7 @@ def full?
 end
 
 def over?
-  won?.@board || draw?.@board || full?.@board
+  won?(@board) || draw?(@board) || full?(@board)
 end
 
 def winner(board)
