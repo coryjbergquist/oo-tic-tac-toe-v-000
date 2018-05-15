@@ -53,9 +53,9 @@ def turn_count
   @board.count { |x| x !=" "}
 end
 
-def current_player(board)
+def current_player
   if 
-    turn_count(board) % 2 == 0
+    turn_count.@board % 2 == 0
 "X"
 else
   "O"
