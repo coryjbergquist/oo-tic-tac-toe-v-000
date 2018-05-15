@@ -99,7 +99,7 @@ def over?
   won? || draw? || full?
 end
 
-def winner(board)
+def winner
   if index = won?
   @board[index[0]]
 end
