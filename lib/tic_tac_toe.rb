@@ -89,7 +89,7 @@ def full?
   
   def draw?
     if
-      @board.won?
+      won?
     else
       @board.full?
   end
