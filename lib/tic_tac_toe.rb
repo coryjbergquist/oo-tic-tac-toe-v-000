@@ -28,8 +28,8 @@ def move(position, value)
   @board[position] = value
 end
 
-def position_taken?(board, index)
- !(board[index] == " " || board[index] == "" || board[index] == nil)
+def position_taken?(index)
+ !(@board[index] == " " || @board[index] == "" || @board[index] == nil)
 end
 
 def valid_move?(board, index)
