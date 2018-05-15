@@ -45,7 +45,7 @@ def valid_move?(index)
    #binding.pry
  display_board
  else 
-   turn(board)
+   turn
   end
 end
 
