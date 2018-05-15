@@ -78,8 +78,9 @@ WIN_COMBINATIONS.each do |win_combination|
     else
       false
     end
-    nil
   end
+  nil
+end
 
 def full?
     !@board.any? {|x|
