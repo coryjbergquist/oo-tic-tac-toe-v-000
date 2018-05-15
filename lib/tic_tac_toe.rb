@@ -123,5 +123,5 @@ turn(board)
 
 game += 1
 end
-
+end
 end
