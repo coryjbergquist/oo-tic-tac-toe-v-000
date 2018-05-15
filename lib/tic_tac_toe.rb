@@ -1,7 +1,7 @@
 class TicTacToe
   def initialize(board = nil)
     @board = board || [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-   def board 
+  def board 
      @board
    end
   end
@@ -78,9 +78,8 @@ WIN_COMBINATIONS.each do |win_combination|
     else
       false
     end
+    nil
   end
-  nil
-end
 
 def full?
     !@board.any? {|x|
