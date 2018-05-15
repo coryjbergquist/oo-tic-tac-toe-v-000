@@ -41,7 +41,7 @@ def valid_move?(index)
  user_input = gets.strip
  index = input_to_index(user_input)
  value = current_player
- if valid_move?(board, index) == true
+ if valid_move?index) == true
    #binding.pry
  display_board
  else 
