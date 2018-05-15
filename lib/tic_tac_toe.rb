@@ -40,7 +40,7 @@ def valid_move?(index)
   puts "Please enter 1-9:"
  user_input = gets.strip
  index = input_to_index(user_input)
- value = current_player(board)
+ value = current_player
  if valid_move?(board, index) == true
    #binding.pry
  display_board
