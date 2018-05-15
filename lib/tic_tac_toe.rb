@@ -36,6 +36,19 @@ def valid_move?(board, index)
     index.between?(0, 8) && !position_taken?(board, index) 
  end
  
- 
+ def turn(board)
+  puts "Please enter 1-9:"
+ user_input = gets.strip
+ index = input_to_index(user_input)
+ value = current_player(board)
+ if valid_move?(board, index) == true
+   #binding.pry
+ display_board(board)
+ else 
+   turn(board)
+  end
+end
+
+
 
 end
