@@ -83,8 +83,10 @@ WIN_COMBINATIONS.each do |win_combination|
 end
 
 def full?
-    !board.any? {|x|
+    !@board.any? {|x|
       x == " "}
   end
+  
+  
 
 end
