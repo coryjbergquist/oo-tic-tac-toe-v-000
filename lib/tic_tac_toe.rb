@@ -105,4 +105,23 @@ def winner(board)
 end
 end
 
+def play(board)
+  while !over?(board)
+turn(board)
+end
+if winner(board) == "X"
+  puts "Congratulations X!"
+  elsif winner(board) == "O"
+  puts "Congratulations O!"
+else 
+  puts "Cat's Game!"
+  game = 0
+  
+  while game < 9
+turn(board)
+
+game += 1
+end
+end
+
 end
