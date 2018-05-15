@@ -25,7 +25,7 @@ end
 
 def move(array, position, value)
 
-  array[position] = value
+  @board[position] = value
 end
 
 def position_taken?(board, index)
