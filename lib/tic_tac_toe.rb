@@ -91,7 +91,7 @@ def full?
     if
       won?
     else
-      @board.full?
+      full?
   end
 end
 
