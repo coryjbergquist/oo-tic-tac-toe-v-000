@@ -97,5 +97,12 @@ end
 
 def over?
   won?.@board || draw?.@board || full?.@board
+end
+
+def winner(board)
+  if index = won?(board)
+  board[index[0]]
+end
+end
 
 end
