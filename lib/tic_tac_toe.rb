@@ -116,12 +116,12 @@ if winner(board) == "X"
 else 
   puts "Cat's Game!"
   game = 0
+end
   
   while game < 9
 turn(board)
 
 game += 1
-end
 end
 
 end
