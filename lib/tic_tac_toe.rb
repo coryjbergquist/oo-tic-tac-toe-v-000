@@ -89,14 +89,14 @@ def full?
   
   def draw?
     if
-      won?(@board)
+      @board.won?
     else
-      full?(@board)
+      @board.full?
   end
 end
 
 def over?
-  won?(@board) || draw?(@board) || full?(@board)
+  @board.won? || @board.draw? || @board.full?
 end
 
 def winner(board)
