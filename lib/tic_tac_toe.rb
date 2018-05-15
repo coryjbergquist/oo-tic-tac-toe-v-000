@@ -100,8 +100,8 @@ def over?
 end
 
 def winner(board)
-  if index = won?(board)
-  board[index[0]]
+  if index = won?
+  @board[index[0]]
 end
 end
 
